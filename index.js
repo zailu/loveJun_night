@@ -36,13 +36,20 @@ async function init() {
     );
     const lifeData = await lifeRes.json();
 
-    // 获取one一个文案及图片
+    // 获取one图片
     const oneRes = await fetch(
       `http://api.tianapi.com/txapi/one/index?key=${tianXingKey}`
     );
     const oneData = await oneRes.json();
     const { word, imgurl } = oneData.newslist[0];
 
+	//获取文字
+	const oneRes2 = await fetch(
+      `http://api.tianapi.com/txapi/saylove/index?key=10a0b8b423af1448982e50a6909e0230`
+    );
+    const oneData2 = await oneRes2.json();
+    const { content } = oneData2.newslist[0];
+	
     // 计算日期
     const lovingDays = dayjs(dayjs().tz('Asia/Shanghai')).diff(
       startDay,
@@ -50,7 +57,7 @@ async function init() {
     );
 
     // 用邮件模版生成字符串
-    const htmlStr = emailHtml(weatherData, lifeData, word, imgurl, lovingDays);
+    const htmlStr = emailHtml(weatherData, lifeData, content, imgurl, lovingDays);
 
     // 发送邮件;
     sendEmail({
