@@ -14,8 +14,7 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
         <!-- 天数 -->
         <div>
           <!-- <p>今天是在一起的第${lovingDays}天！</p>-->
-		  <p>今天是想你的第${lovingDays}天！</p>
-		  <p>今天也要开开心心，元气满满哦(*￣︶￣)！</p>
+		  <p>转眼间一天就过去啦，今天有没有开开心心呢(*^▽^*)</p>
         </div>
         <!-- 图片 -->
         <div>
@@ -30,28 +29,6 @@ function fn(weatherData, lifeData, word, imgurl, lovingDays) {
           <p style="font-size: 14px; text-indent: 2em; font-style: italic;color: red;font-weight:bold;text-align:center">
             ${word}
           </p>
-        </div>
-        <!-- 天气 -->
-        <div>
-          <p>
-            <b>厦门今日气温:
-            <span>${weatherDataDaily[0].tempMin}°C - ${weatherDataDaily[0].tempMax}°C</span>
-			</b>
-          </p>
-          <ul>
-            <li style="margin-bottom: 10px">
-              ${daily[1].name}(${daily[1].category}):
-              ${daily[1].text}
-            </li>
-            <li style="margin-bottom: 10px">
-              ${daily[2].name}(${daily[2].category}):
-              ${daily[2].text}
-            </li>
-            <li style="margin-bottom: 10px">
-              ${daily[0].name}(${daily[0].category}):
-              ${daily[0].text}
-            </li>
-          </ul>
         </div>
       </div>
     </body>
