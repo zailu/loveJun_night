@@ -20,7 +20,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         </div>
         <!-- 图片 -->
         <div style="width: 100%;max-height: 35rem;overflow: hidden;padding: 0 1rem;box-sizing: border-box;border-radius: 0.6rem;position: relative;display: flex;justify-content: center;align-items: center;padding-bottom: 1rem;">
-          <img style="width: 100%;"; src="${imgurl}" alt="图片" />
+          <img style="width: 100%;"; src="https://s3.bmp.ovh/imgs/2021/12/bbb7a7a1173ec12e.png" alt="图片" />
         </div>
         <!-- 每日一句 -->
         <div style="font-size: 1rem;text-indent: 2em;font-style: italic;padding: 3rem 2rem;background: url(https://s3.bmp.ovh/imgs/2021/12/b8b68c4a645b0f91.png) no-repeat center top;background-size: 90% 100%;">
