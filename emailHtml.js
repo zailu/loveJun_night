@@ -14,7 +14,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 			<!-- 天数 -->
 			<div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;position: relative;color: #000000;margin-bottom: 2px;letter-spacing: 0.2rem;">
 				<!-- <p>今天是在一起的第${lovingDays}天！</p>-->
-				<p>结束了第${lovingDays}天对你的思念！</p>
+				<p>结束了第${lovingDays}天对你的思念~</p>
 				<div>
 					今天也要好好睡觉哦
 					<img  style="width: 8%;"; src="https://s3.bmp.ovh/imgs/2021/12/d82c0c74feafd80c.png" />
@@ -24,7 +24,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 				</div>
 			</div>
 			<!-- 每日一句 -->
-			<div style="float:left;font-size: 1rem;writing-mode:tb-lr;width: 60%;">
+			<div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;position: relative;color: #0000ff;margin-bottom: 2px;letter-spacing: 0.2rem;">
 				${content}
 			</div>
 			<div style="position:absolute;bottom:0">
