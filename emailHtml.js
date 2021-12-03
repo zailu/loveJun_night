@@ -27,7 +27,9 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 			<div style="float:left;font-size: 1rem;writing-mode:tb-lr;width: 60%;">
 				${content}
 			</div>
-			<img  style="width: 100%;"; src="https://s3.bmp.ovh/imgs/2021/12/c31203495969e9f1.png" />
+			<div style="float: left;bottom: auto;">
+				<img  style="width: 100%;"; src="https://s3.bmp.ovh/imgs/2021/12/c31203495969e9f1.png" />
+			</div>
       </div>
       </body>
     </html>
