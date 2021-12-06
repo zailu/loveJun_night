@@ -25,7 +25,8 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 			</div>
 			<!-- 每日一句 -->
 			<div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;float: left;color: #0000ff;margin-bottom: 2px;letter-spacing: 0.2rem;margin-top: 3rem;">
-				${content}
+				<!-- ${content} -->
+				新鲜感是和旧的人体验新的事物，不是和新的人体验旧的事物，而累了要学会休息而不是放弃，毕竟谁和谁都会有平淡期，晚安。
 			</div>
 			<div style="position:absolute;bottom:0">
 				<img  style="width: 100%;"; src="https://s3.bmp.ovh/imgs/2021/12/c31203495969e9f1.png" />
