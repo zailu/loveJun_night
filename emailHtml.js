@@ -26,7 +26,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 			<!-- 每日一句 -->
 			<div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;float: left;color: #0000ff;margin-bottom: 2px;letter-spacing: 0.2rem;margin-top: 3rem;">
 				<!-- ${content} -->
-				圆规之所以能画圆，是因为人家脚在动而心不变，晚安。
+				有人画饼给你看，有人买饼给你吃。
 			</div>
 			<div style="position:absolute;bottom:0">
 				<img  style="width: 100%;"; src="https://s3.bmp.ovh/imgs/2021/12/c31203495969e9f1.png" />
