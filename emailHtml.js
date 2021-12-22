@@ -26,7 +26,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 			<!-- 每日一句 -->
 			<div style="font-weight: bold;line-height: 2;padding: 1rem;margin: 1rem;border-radius: 1rem 0.5rem;text-align: center;float: left;color: #0000ff;margin-bottom: 2px;letter-spacing: 0.2rem;margin-top: 3rem;">
 				<!-- ${content} -->
-				大雨中为你撑伞的人，黑暗中默默抱紧你的人。逗你笑的人，陪你彻夜聊天的人，坐车来看你的人，在医院陪你的人，陪你哭过的人，总是以你为重的人，是这些温暖使你成为善良的人。
+				无论对谁太过热情，就增加了不被珍惜的概率。倘若没有过度的欢喜，便不会有极度的悲伤。
 			</div>
 			<div style="position:absolute;bottom:0">
 				<img  style="width: 100%;"; src="https://s3.bmp.ovh/imgs/2021/12/c31203495969e9f1.png" />
