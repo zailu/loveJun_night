@@ -2,7 +2,7 @@ name: xzl-helper
 
 on:
   #设置push运行
-  #push:
+  push:
     #branches: [ main ]
   schedule:
     #- cron: "55 13 * * *" # 该时间为UTC时间，比北京时间晚8个小时，每天晚上10点自动执行
@@ -14,4 +14,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
       - name: Run Project
-        run: npm install && npm run server
+        #run: npm install && npm run server
+        run: npm test
