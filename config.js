@@ -4,8 +4,8 @@ module.exports = {
   fromDisplaySubText: '写给宝宝的第三封信', // 收件箱展示的次级标题
   user: '919422364@qq.com', // 发送者邮箱
   pass: 'xkhoaxouqlfjbbif', // 发送者邮箱MTP协议密码
-  //to: '1943979603@qq.com', // 发送到谁，填邮箱
-  to: '919422364@qq.com', // 发送到谁，填邮箱
+  to: '1943979603@qq.com', // 发送到谁，填邮箱
+  //to: '919422364@qq.com', // 发送到谁，填邮箱
   weatherKey: '33369e365fe84eb68876f52a2ae51cca', // 和风天气key
   location: '101280604',  // 和风天气-厦门的id 101230201   深圳的id 101280604
   type: '1,3,9', // 和风天气-生活指数type
