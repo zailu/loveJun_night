@@ -1,7 +1,7 @@
 // 配置信息
 module.exports = {
   fromDisplayText: '爱你的哥哥', // 收件箱展示的来件人名字
-  fromDisplaySubText: '晚安', // 收件箱展示的次级标题
+  fromDisplaySubText: '写给宝宝的第三封信', // 收件箱展示的次级标题
   user: '919422364@qq.com', // 发送者邮箱
   pass: 'xkhoaxouqlfjbbif', // 发送者邮箱MTP协议密码
   //to: '1943979603@qq.com', // 发送到谁，填邮箱
