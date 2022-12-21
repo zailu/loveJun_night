@@ -1,4 +1,7 @@
-const fn = ()=>{
+function fn(weatherData, lifeData, content, imgurl, lovingDays) {
+  const { daily: weatherDataDaily } = weatherData;
+  const { daily } = lifeData;
+
   return '\n' +
     '<!DOCTYPE html>\n' +
     '<html lang="en">\n' +
@@ -848,7 +851,7 @@ const fn = ()=>{
     '      }\n' +
     '  \n' +
     '  </script>\n' +
-    '</html>\n'
+    '</html>\n;
 }
 
-console.log(fn())
+module.exports = fn;
