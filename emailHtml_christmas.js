@@ -851,7 +851,7 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
     '      }\n' +
     '  \n' +
     '  </script>\n' +
-    '</html>\n
+    '</html>\n' +
     ;
 }
 
