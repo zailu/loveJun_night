@@ -387,11 +387,11 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
 
         //第一次修改样式，定义克隆出来的雪花的样式
         cloneFlake.style.cssText += `
-                        left: ${startLeft}px;
-                        opacity: ${startOpacity};
-                        font-size:${flakeSize}px;
+                        left: `+startLeft+`px;
+                        opacity: `+startOpacity+`;
+                        font-size:`+flakeSize+`px;
                         top:-25px;
-                            transition:${durationTime}ms;
+                            transition:`+durationTime+`ms;
                     `;
 
         //拼接到页面中
@@ -402,9 +402,9 @@ function fn(weatherData, lifeData, content, imgurl, lovingDays) {
         setTimeout(function () {
           //第二次修改样式
           cloneFlake.style.cssText += `
-                                left: ${endLeft}px;
-                                top:${documentHieght}px;
-                                opacity:${endOpacity};
+                                left: `+endLeft+`px;
+                                top:`+documentHieght+`px;
+                                opacity:`+endOpacity+`;
                             `;
 
           //4、设置第三个定时器，当雪花落下后，删除雪花。
