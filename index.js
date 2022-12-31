@@ -4,7 +4,7 @@ const utc = require('dayjs/plugin/utc');
 const timezone = require('dayjs/plugin/timezone');
 
 const sendEmail = require('./sendEmail');
-const emailHtml = require('./emailHtml_letter');
+const emailHtml = require('./emailHtml');
 
 // 给dayjs添加时区选项
 dayjs.extend(utc);
